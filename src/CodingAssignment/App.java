@@ -10,11 +10,15 @@ public class App {
 		Logger asteriskLogger = new AsteriskLogger();
 		Logger spacedLogger = new SpacedLogger();
 		
-		asteriskLogger.Log("Saba");
-		asteriskLogger.Error("Hello");
+		asteriskLogger.Log("Jude");
+		System.out.println("\n...................\n");
+		asteriskLogger.Error("ErrorMessage");
+		
+		System.out.println("\n");
 		
 		spacedLogger.Log("Alshaeer");
-		spacedLogger.Error("notHello");
+		System.out.println("\n...................\n");
+		spacedLogger.Error("ErrorMessage");
 
 
 	}
